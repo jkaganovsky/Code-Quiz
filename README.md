@@ -14,7 +14,7 @@ Creating a working Web API Quiz Game using code.
 1.
 
 ## Credits
-1.
+1.https://stackoverflow.com/questions/9529327/change-the-value-of-h1-element-within-a-form-with-javascript
 
 
 
