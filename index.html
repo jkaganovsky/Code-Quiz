@@ -3,31 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Code Quiz</title>
 </head>
 <body>
-    <!-- TODO: Create html fixed content -->
-    <div class="welcome">
-        <h1>Coding Quiz</h1>
-        <p>Answer the following questions</p>
-    </div>
+    <main>
 
-    <!-- TODO: Create generic question box -->
-    <div class="questions">
-        <ul id="options">
-            <!-- TODO: Create option list (as buttons) -->
-            <button aria-label=></li>
-        </ul>
-    </div>
+        <div class="container">
+            <!-- TODO: Create View High Score Link -->
+            <div class="high-score-link">
+                <a href="">View High Scores</a>
+            </div>
 
-    <!-- TODO: Create Timer Box -->
-    <div>
+            <!-- TODO: Create Timer Box -->
+            <div class="timer">
+                <h2></h2>
+            </div>
+        </div>
 
-    </div>
+        <div class="page">
 
-    <!-- TODO: Create View High Score Box -->
+            <!-- TODO: Create html fixed content -->
+            <div class="container">
+                <h1>Coding Quiz</h1>
+                <p>Hello!</p>
+                <p>Answer the following coding questions to test your knowledge.</p>
+                <button id="start">START QUIZ</button>
+            </div>
 
-    <script src="./assets/script.js"></script>
+            <!-- TODO: Create generic question box -->
+            <div class="container">
+                <h1 id="questions"></h1>
+                <ol id="options">
+                    <!-- TODO: Create option list (as buttons) -->
+                    <button id="1"></button>
+                    <button id="2"></button>
+                    <button id="3"></button>
+                    <button id="4"></button>
+                </ol>
+                <h3></h3>
+            </div>
+
+            <!-- TODO: Results Page -->
+            <div class="container">
+                <h2></h2>
+            </div>
+
+            <!-- TODO: High Score Prompt Page -->
+            <div class="container">
+                <form>
+                    <input placeholder="Initials" id="initials" />
+                    <button id="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- TODO: Create High Score Page -->
+            <div class="container">
+                <h1>High Score</h1>
+                <h3 id="final-score"></h3>
+                <ul id="high-score-list"></ul>
+                <button id="goback">Go Back</button>
+                <button id="clearscrn">Clear High Score</button>
+            </div>
+
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

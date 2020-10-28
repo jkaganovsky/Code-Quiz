@@ -1,0 +1,41 @@
+main{
+    padding:20px;
+}
+
+.container{
+    border: tomato;
+    border-style: solid;
+}
+.header{
+    text-align: space-between;
+}
+
+.page{
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+h1{
+    font-size: 50px;
+    padding: 20px;
+    color: black;
+}
+
+p{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+}
