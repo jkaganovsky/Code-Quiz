@@ -6,8 +6,11 @@ main{
     border: tomato;
     border-style: solid;
 }
+
 .header{
-    text-align: space-between;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
 }
 
 .page{
@@ -19,7 +22,6 @@ main{
 h1{
     font-size: 50px;
     padding: 20px;
-    color: black;
 }
 
 p{
@@ -33,9 +35,17 @@ button {
     background-color: purple;
     color: white;
     padding: 15px;
+    font-size: 20px;
 }
 
 #options {
     display: flex;
     flex-direction: column;
+}
+
+#high-score-list {
+    background-color: peachpuff;
+    padding: 5px 0px 5px 40px;
+    font-size: 25px;
+    text-align: left;
 }
