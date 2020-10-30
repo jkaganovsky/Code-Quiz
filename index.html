@@ -11,14 +11,16 @@
     <main>
 
         <div class="container">
-            <!-- TODO: Create View High Score Link -->
-            <div class="high-score-link">
-                <a href="">View High Scores</a>
-            </div>
+            <!-- TODO: Create Fixed View High Score Link -->
+            <div class="header">
+                <div class="high-score-link">
+                    <a href="">View High Scores</a>
+                </div>
 
-            <!-- TODO: Create Timer Box -->
-            <div class="timer">
-                <h2></h2>
+            <!-- TODO: Create Fixed Timer Box -->
+                <div class="timer">
+                    <h2>Time Left: <span id="time-left">0</span></h2>
+                </div>
             </div>
         </div>
 
@@ -52,21 +54,12 @@
 
             <!-- TODO: High Score Prompt Page -->
             <div class="container">
-                <form>
-                    <input placeholder="Initials" id="initials" />
-                    <button id="submit">Submit</button>
-                </form>
+                <h1>You're Done!</h1>
+                <p>Total Score: <span id="score">0</span></p>
+                <input type="text" placeholder="Initials" id="initials" />
+                <button id="submit">Submit</button>
+                <ul id="initials-list"></ul>
             </div>
-
-            <!-- TODO: Create High Score Page -->
-            <div class="container">
-                <h1>High Score</h1>
-                <h3 id="final-score"></h3>
-                <ul id="high-score-list"></ul>
-                <button id="goback">Go Back</button>
-                <button id="clearscrn">Clear High Score</button>
-            </div>
-
         </div>
     </main>
     <script src="./assets/js/script.js"></script>
