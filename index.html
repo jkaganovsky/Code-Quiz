@@ -14,7 +14,7 @@
             <!-- TODO: Create Fixed View High Score Link -->
             <div class="header">
                 <div class="high-score-link">
-                    <a href="">View High Scores</a>
+                    <a href="./highscore.html">View High Scores</a>
                 </div>
 
             <!-- TODO: Create Fixed Timer Box -->
@@ -27,7 +27,7 @@
         <div class="page">
 
             <!-- TODO: Create html fixed content -->
-            <div class="container">
+            <div class="container" id="welcome">
                 <h1>Coding Quiz</h1>
                 <p>Hello!</p>
                 <p>Answer the following coding questions to test your knowledge.</p>
@@ -35,7 +35,7 @@
             </div>
 
             <!-- TODO: Create generic question box -->
-            <div class="container">
+            <div class="container" id="quiz-questions">
                 <h1 id="questions"></h1>
                 <ol id="options">
                     <!-- TODO: Create option list (as buttons) -->
@@ -47,13 +47,8 @@
                 <h3></h3>
             </div>
 
-            <!-- TODO: Results Page -->
-            <div class="container">
-                <h2></h2>
-            </div>
-
             <!-- TODO: High Score Prompt Page -->
-            <div class="container">
+            <div class="container" id="quiz-results">
                 <h1>You're Done!</h1>
                 <p>Total Score: <span id="score">0</span></p>
                 <input type="text" placeholder="Initials" id="initials" />
