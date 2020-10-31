@@ -11,10 +11,29 @@ for (var i = 0; i < 1; i++) {
 
         var li = document.createElement("li");
         li.textContent = highScores;
-        // li.setAttribute("", i);
         scoreList.appendChild(li);
     }
 
 // TODO: CLEAR highScores
+var clearButton = document.querySelector("#clearscrn");
 
-// TODO: GO BACK to main page
+// PERFORM the function to clearHighScore.
+function clearHighScore() {
+    localStorage.setItem("highScores", "");
+    scoreList.removeChild(li);
+}
+
+// ADD .eventListener to #clearscrn
+clearButton.addEventListener("click", clearHighScore)
+
+// TODO: GO BACK to main page.
+var goBackButton = document.querySelector("#goback");
+
+// PERFORM the function to goBack to the main page.
+function goBack() {
+    location.assign("index.html");
+}
+
+// ADD .eventListener to Go Back button
+goBackButton.addEventListener("click", goBack)
+
