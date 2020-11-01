@@ -12,11 +12,16 @@ Creating a working Web API Quiz Game using code.
 
 ## Content and Description:
 1. HTML
+
 ![index](./assets/images/index-html.png)
 ![highscore](./assets/images/highscore-html.png)
+
 1. CSS
+
 ![style](./assets/images/style-css.png)
+
 1. JS
+
 ![setup](./assets/images/varquizsetup-js.png)
 ![quiz](./assets/images/mainquiz-js.png)
 ![timer](./assets/images/timerfunctions-js.png)
