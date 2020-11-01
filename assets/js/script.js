@@ -101,7 +101,7 @@ function updateStats(event) {
     if (event.target.id === quiz[quizIndex].answer) {
         // IF correct, alert "CORRECT!"
         console.log(quiz[quizIndex].answer + "CORRECT!");
-        showAlert.classList.toggle("CORRECT!"); // NEED to find the proper syntax to make this work
+        showAlert.innerHTML = "CORRECT!"; // NEED to find the proper syntax to make this work
 
     } else {
         // IF wrong, alert "WRONG!", and subtract 5 from score/time
@@ -112,7 +112,7 @@ function updateStats(event) {
         console.log(totalSeconds + "After");
 
         console.log(quiz[quizIndex].answer + "WRONG!");
-        showAlert.classList.toggle("WRONG!"); // NEED to find the proper syntax to make this work
+        showAlert.innerHTML = "WRONG!"; // NEED to find the proper syntax to make this work
     }
 
     //MOVES index to the next question
