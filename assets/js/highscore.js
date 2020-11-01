@@ -33,7 +33,7 @@ var clearList = document.querySelector("#high-score-list")
 
 // PERFORM the function to clearHighScore.
 function clearHighScore() {
-    localStorage.setItem("highScores", "");
+    localStorage.removeItem("highScores");
     clearList.innerHTML = "";
 }
 

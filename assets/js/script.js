@@ -171,7 +171,7 @@ function submitHighScore() {
     var highScores = localStorage.getItem("highScores");
 
     // IF localstorage for highScores is empty, initialize the quiz again.
-    if (highScores === "") {
+    if (highScores === null) {
         highScores = [];
     } else { // ELSE convert the highScores string back into an array.
         highScores = JSON.parse(highScores);
