@@ -3,7 +3,7 @@
 ## UW CODING BOOT CAMP HOMEWORK 04
 
 ## Summary
-Creating a working Web API Quiz Game using code.
+Creating a working Web API Quiz Game using code. This homework was required to be built completely from scratch. The html, js, and css files were built from ground zero.
 
 ## Links
 1. [Github Repository](https://github.com/jkaganovsky/Code-Quiz)
