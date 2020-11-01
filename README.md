@@ -11,12 +11,22 @@ Creating a working Web API Quiz Game using code.
 
 
 ## Content and Description:
-1.
+1. HTML
+![index](./assets/images/index-html.png)
+![highscore](./assets/images/highscore-html.png)
+1. CSS
+![style](./assets/images/style-css.png)
+1. JS
+![setup](./assets/images/varquizsetup-js.png)
+![quiz](./assets/images/mainquiz-js.png)
+![timer](./assets/images/timerfunctions-js.png)
+![score](./assets/images/highscore-js.png)
 
 ## Credits
-1.https://stackoverflow.com/questions/9529327/change-the-value-of-h1-element-within-a-form-with-javascript
-
-
+1. https://stackoverflow.com/questions/9529327/change-the-value-of-h1-element-within-a-form-with-javascript
+1. https://www.w3schools.com/jsref/api_storage.asp
+1. https://www.w3schools.com/jsref/jsref_obj_json.asp
+1. https://www.w3schools.com/css/css_display_visibility.asp
 
 ## License
 MIT License
