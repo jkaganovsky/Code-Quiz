@@ -2,11 +2,6 @@ main{
     padding:20px;
 }
 
-.container{
-    border: tomato;
-    border-style: solid;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
@@ -34,7 +29,7 @@ button {
     cursor: pointer;
     background-color: purple;
     color: white;
-    padding: 15px;
+    padding: 10px;
     font-size: 20px;
 }
 
@@ -45,7 +40,15 @@ button {
 
 #high-score-list {
     background-color: peachpuff;
-    padding: 5px 0px 5px 40px;
+    margin: 10px;
+    padding: 20px 0px 20px 40px;
     font-size: 25px;
     text-align: left;
+}
+
+/* NEED TO CHECK IF THIS IS WORKING */
+#correct-wrong {
+    color: grey;
+    border-top-color: grey;
+    border-style: solid;
 }
