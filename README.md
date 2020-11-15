@@ -1,9 +1,7 @@
 # Code-Quiz
 
-## UW CODING BOOT CAMP HOMEWORK 04
-
 ## Summary
-Creating a timed coding quiz with multiple choice questions. This homework was required to be built completely from scratch, which will run in the browser, featuring an updated HTML and CSS powered by JavaScript code that I wrote from ground zero.
+Creating a timed coding quiz with multiple choice questions. This was required to be built completely from scratch, which will run in the browser, featuring an updated HTML and CSS powered by JavaScript code that I wrote from ground zero.
 
 ## Links
 1. [Github Repository](https://github.com/jkaganovsky/Code-Quiz)
